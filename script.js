@@ -3,10 +3,10 @@ function toCase(text) {
 	if(text==""){
 		return "-";
 	}
-	te=str.toLowerCase() + '-' + str.toUpperCase();
+	let te=str.toLowerCase() + '-' + str.toUpperCase();
 	return te;
 	
 }
-let te="";
-// const text = prompt("Enter text:");
-// alert(toCase(text));
+
+const text = prompt("Enter text:");
+alert(toCase(text));
