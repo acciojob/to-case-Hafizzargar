@@ -1,8 +1,11 @@
 function toCase(text) {
   // write your code here
+	if(text==""){
+		return "";
+	}
 	let z=text.toUpperCase();
-	return te=text+"-"+z;
-	
+	 te=text+"-"+z;
+	return te;
 	
 }
 let te="";
